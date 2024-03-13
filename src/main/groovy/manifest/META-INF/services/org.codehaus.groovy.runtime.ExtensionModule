@@ -1,0 +1,29 @@
+moduleName=ibizlab-generator-document-groovy
+moduleVersion=1.0
+extensionClasses=cn.ibizlab.codegen.groovy.filter.OutPutFilterExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSDEActionInputExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSDEMethodDTOExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSDEMethodDTOFieldExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSDEMethodInputExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSDEMethodReturnExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSModelExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSSystemExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDataEntityExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDENotifyExtension \
+                ,cn.ibizlab.codegen.groovy.support.PSDERBaseExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDEFValueRuleExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDEActionExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDELogicExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDELogicParamExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDELogicNodeParamExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDELogicLinkGroupCondExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSSysUseCaseRSExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSSysERMapExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSSysSFPluginExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSWFVersionExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSApplicationExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDEUILogicExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDEUILogicLinkGroupCondExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDEUILogicNodeParamExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSDEUILogicParamExtension\
+                ,cn.ibizlab.codegen.groovy.support.PSModelWarnExtension

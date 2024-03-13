@@ -1,0 +1,4 @@
+调用实体 [${item.getDstPSDataEntity().getDisplayName()}](module/${item.getDstPSDataEntity().getPSSystemModule().getCodeName()}/${item.getDstPSDataEntity().getCodeName()}.md) 处理逻辑 [${item.getDstPSDELogic().getDisplayName()}]((module/${item.getDstPSDataEntity().getPSSystemModule().getCodeName()}/${item.getDstPSDataEntity().getCodeName()}/logic/${item.getDstPSDELogic().getCodeName()}.md)) ，行为参数为`${item.getDstPSDELogicParam().getCodeName()}<%= item.getDstPSDELogicParam().getLogicName()?  "("+item.getDstPSDELogicParam().getLogicName()+")" : ""%>`
+<% if (item.getRetPSDELogicParam()){ %>\
+将执行结果返回给参数`${item.getRetPSDELogicParam().getCodeName()}<%= item.getRetPSDELogicParam().getLogicName()?  "("+item.getRetPSDELogicParam().getLogicName()+")" : ""%>`
+<% } %>

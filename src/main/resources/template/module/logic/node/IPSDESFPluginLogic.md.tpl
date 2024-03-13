@@ -1,0 +1,1 @@
+调用插件 [${item.getPSSysSFPlugin().getName()}](index/sfplugin_index#${item.getPSSysSFPlugin().getCodeName().toLowerCase()})

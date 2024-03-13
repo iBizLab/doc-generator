@@ -1,0 +1,1 @@
+`<%if(item.getCurPSDEField()){%>${item.getCurPSDEField().getName()}(${item.getCurPSDEField().getLogicName()})<%}else { out  << " "}%>` <%if(item.getPSSysValueRule()){%>使用规则[${item.getPSSysValueRule().getName()}](index/sys_value_rule_index#${item.getPSSysValueRule().getCodeName()})进行校验<%}else{%>未选择系统值规则<%}%>

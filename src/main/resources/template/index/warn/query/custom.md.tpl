@@ -1,0 +1,7 @@
+<% if (item.getCustomQueries()) { %>\
+
+### 使用自定义SQL的查询<sup class="footnote-symbol"> <font color=orange>[${item.getCustomQueries().size()}]</font></sup>
+| 实体   | 数据查询  |
+| --------   |------------|
+<%  item.getCustomQueries().each{ query -> %>\
+|[${query.getParentPSModelObject().getDisplayName()}](module/${query.getParentPSModelObject().getPSSystemModule().getCodeName()}/${query.getParentPSModelObject().getCodeName()})|[${query.getDisplayName()}](module/${query.getParentPSModelObject().getPSSystemModule().getCodeName()}/${query.getParentPSModelObject().getCodeName()}/query/${query.getCodeName()})|<% }}%>

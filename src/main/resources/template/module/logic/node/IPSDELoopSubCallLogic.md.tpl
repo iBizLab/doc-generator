@@ -1,0 +1,1 @@
+循环参数<%if(item.getSrcPSDELogicParam()){%>`${item.getSrcPSDELogicParam().getInfo()}`<%}%><%if(item.getDstPSDELogicParam()){%>，子循环参数使用`${item.getDstPSDELogicParam().getInfo()}`<%}%>

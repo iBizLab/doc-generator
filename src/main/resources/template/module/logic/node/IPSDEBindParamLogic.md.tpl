@@ -1,0 +1,1 @@
+绑定参数<%if(item.getSrcPSDELogicParam()){%>`${item.getSrcPSDELogicParam().getInfo()}`<%}%> 到 <%if(item.getDstPSDELogicParam()){%>`${item.getDstPSDELogicParam().getInfo()}`<%}%>
