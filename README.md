@@ -25,9 +25,10 @@
 * 基于`Groovy`模板语言，支持客户自身扩展iBiz业务模型
 * 易于做二次开发,发布器本身就是`java`源代码,源代码核心十分精简,并且鼓励您修改代码,也可以作为任何语言的代码发布器
 
+
 # 发布器结构
 
-![image.png](screenshot/image.png)
+![image.png](sample/image.png)
 
 1. GroovyCodeGenEngine 主要为客户组织需要发布内容，以及发布组织目录相关代码
 2. support包中主要是iBiz业务模型扩展支持
@@ -36,18 +37,43 @@
 
 # 发布器运行
 
-![image-1.png](screenshot/image-1.png)
+项目编译
+```
+mvn package
+```
+
+运行
+```
+java -jar ./target/ibizlab-generator-document-groovy-1.0.30.jar -m D:\Workspace\iBizPLM\plm-core\src\main\resources\model\cn\ibizlab\plm -o D:\Workspace\iBizPLM\doc
+```
 
 指定iBiz业务模型文件目录、输出目录
+
+![image-1.png](sample/image-1.png)
+
+
 ### 模板结构
-![img_4.png](screenshot/img_4.png)
+基于docsify
+![img_4.png](sample/img_4.png)
 ### 发布成果
-![s1.png](screenshot/s1.png)
-![s2.png](screenshot/s2.png)
-![s3.png](screenshot/s3.png)
-
+![s1.png](sample/s1.png)
+![s2.png](sample/s2.png)
+### 成果运行
+安装docsify
+```json
+npm i docsify-cli -g
+```
+进入发布的doc目录，执行
+```
+docsify serve
+```
+访问doc文档地址
+```
+http://localhost:3000/
+```
+![s4.png](sample/s4.png)
+![s3.png](sample/s3.png)
 # 发布器讲解
-
 发布代码主要依赖方法
 ```
 	/**
@@ -149,8 +175,8 @@ python属性类型：${item.getPythonType()}
 
 
 在[iBiz软件工厂](http://www.ibizsys.cn/ungroup/portal)中点击“实时模型对象”，也可以方便查看模型配置说明，以及获取模型配置方法：
-![img.png](screenshot/img.png)
-![img_1.png](screenshot/img_1.png)
+![img.png](sample/img.png)
+![img_1.png](sample/img_1.png)
 
 
 
