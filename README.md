@@ -1,9 +1,5 @@
 # 基于iBiz业务模型发布器
 
-[iBiz软件工厂](http://www.ibizsys.cn/ungroup/portal)
-
-[iBiz模型文档](http://www.ibizsys.cn/ungroup/portal)
-
 # 目标
 基于iBiz提供的标准业务模型，结合客户自身技术积累，打造最适合客户需求发布模板，实现高效自动化能力。
 拥有代码智能、场景丰富、创造价值、广泛应用等多重产品优势，可实现“帮你想、帮你写、帮你改”的场景应用形态。
@@ -156,7 +152,6 @@ python属性类型：${item.getPythonType()}
 ```
 
 # iBiz模型说明
-[iBiz模型文档](http://www.ibizsys.cn/ungroup/portal)
 
 独立加载iBiz模型：
 ```
